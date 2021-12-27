@@ -1,122 +1,142 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0556/9150/9911/files/BonTon_Primary_Icon_Flower_Red.png?v=1625744650" type="image/png">
-<style>
-/* ================ */
-/*		DEFAULT		*/
-/* ================ */
-html,body,div,form,fieldset,legend,label{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}th,td{text-align:left;vertical-align:top;}h1,h2,h3,h4,h5,h6,th,td,caption{font-weight:normal;}img{border:0;}
-body{
-	margin: 0;
-}
-div.Bar,
-.Block.Moveable{
-	display: none !important;
-	opacity: 0;
-	height: 0;
-}
-img{
-	width: 100%;
-	max-width: 100%;
-}
-/* ================ */
-/*		GENERAL		*/
-/* ================ */
-body,
-div.bx-full-screen-wrap{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-figure{
-	margin:0;
-}
-p,h1{
-	font-family: 'Inter', sans-serif;
-}
-p.coming-soon{
-	color: #D83934;
-	font-weight: bold;
-	font-weight: 600;
-	font-size: 2em;
-	margin: 0;
-}
-h1{
-	font-weight: lighter;
-	font-weight: 100;
-	font-size: 3.3em;
-    margin: 0.5em 0;
-    line-height: 1;
-}
-p.sub-copy{
-	font-weight: normal;
-	font-weight: 500;
-	font-size: 1.5em;
-}
-.bx-component-two-columns > div:nth-of-type(2){
-	background: url('images/bg.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 146% 100%;
-}
-.bx-logo-wrap{
-	padding: 4%;
-	background: #D83934;
-}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-@media screen and (min-width: 768px){
-	.bx-break-on-desktop{
-		display: block;
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  
+  <title>Younkers Coming Soon </title>
+  
+  <link href="css/bootstrap.css" rel="stylesheet" />
+	<link href="css/coming-soon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0556/9150/9911/files/BonTon_Primary_Icon_Flower_Red.png?v=1625744650" type="image/png">
+    
+  <!--     Fonts     -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
+  
+  <style>
+	/* ================ */
+	/*		DEFAULT		*/
+	/* ================ */
+	html,body,div,form,fieldset,legend,label{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}th,td{text-align:left;vertical-align:top;}h1,h2,h3,h4,h5,h6,th,td,caption{font-weight:normal;}img{border:0;}
+	body{
+		margin: 0;
 	}
-	.bx-component-two-columns{
-		overflow: auto;
-		font-size: 1vw;
+	div.Bar,
+	.Block.Moveable{
+		display: none !important;
+		opacity: 0;
+		height: 0;
 	}
-	.bx-component-two-columns > div{
-		float: right;
+	img{
+		width: 100%;
+		max-width: 100%;
 	}
-	.bx-component-two-columns > div:nth-of-type(1){
-		width:37%;
-	}
-	.bx-component-two-columns > div:nth-of-type(2){
+	/* ================ */
+	/*		GENERAL		*/
+	/* ================ */
+	body,
+	div.bx-full-screen-wrap{
 		display: -webkit-box;
-	    display: -moz-box;
-	    display: -webkit-flex;
-	    display: -ms-flexbox;
-	    display: flex;
-	    align-items: center;
-	    justify-content: flex-start;
-		width:63%;
-		padding: 13.5vw 0;
-		height: 100%;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
-	.bx-component-two-columns > div:nth-of-type(2) > div{
-		padding: 0 4em;
-		margin: 2em 0 0;
+	figure{
+		margin:0;
 	}
-}
-@media screen and (min-width: 1200px){
-	.bx-component-two-columns{
-		font-size: 1em;
+	p,h1{
+		font-family: 'Inter', sans-serif;
+	}
+	p.coming-soon{
+		color: #D83934;
+		font-weight: bold;
+		font-weight: 600;
+		font-size: 2em;
+		margin: 0;
+	}
+	h1{
+		font-weight: lighter;
+		font-weight: 100;
+		font-size: 3.3em;
+		margin: 0.5em 0;
+		line-height: 1;
+	}
+	p.sub-copy{
+		font-weight: normal;
+		font-weight: 500;
+		font-size: 1.5em;
 	}
 	.bx-component-two-columns > div:nth-of-type(2){
-		padding: 11.5em 0;
+		background: url('images/bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 146% 100%;
 	}
+	.bx-logo-wrap{
+		padding: 4%;
+		background: #D83934;
+	}
+	
+	@media screen and (min-width: 768px){
+		.bx-break-on-desktop{
+			display: block;
+		}
+		.bx-component-two-columns{
+			overflow: auto;
+			font-size: 1vw;
+		}
+		.bx-component-two-columns > div{
+			float: right;
+		}
+		.bx-component-two-columns > div:nth-of-type(1){
+			width:37%;
+		}
+		.bx-component-two-columns > div:nth-of-type(2){
+			display: -webkit-box;
+			display: -moz-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			width:63%;
+			padding: 13.5vw 0;
+			height: 100%;
+		}
+		.bx-component-two-columns > div:nth-of-type(2) > div{
+			padding: 0 4em;
+			margin: 2em 0 0;
+		}
+	}
+	@media screen and (min-width: 1200px){
+		.bx-component-two-columns{
+			font-size: 1em;
+		}
+		.bx-component-two-columns > div:nth-of-type(2){
+			padding: 11.5em 0;
+		}
+	
+	}
+	@media screen and (max-width: 780px){
+		.bx-component-two-columns > div:nth-of-type(2) > div{
+			padding: 4em;
+			font-size: 2vw;
+			background: #ffffffb0;
+		}
+	}
+	</style>
 
-}
-@media screen and (max-width: 780px){
-	.bx-component-two-columns > div:nth-of-type(2) > div{
-		padding: 4em;
-    	font-size: 2vw;
-    	background: #ffffffb0;
-    }
-}
-</style>
+</head>
+
+<body>
 
 <div class="bx-full-screen-wrap">
 	<section class="bx-component bx-component-two-columns bx-component-two-columns-12">
@@ -169,3 +189,8 @@ function carousel() {
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
+
+
+</body>
+
+</html>
